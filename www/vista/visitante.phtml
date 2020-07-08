@@ -1,0 +1,61 @@
+
+    <header>
+        <div class="container">
+            <center>
+            <h1>Control-Covid19</h1>
+            </center>
+            
+        </div>
+    </header>
+    <div class="container">
+            <center><h2>VISITANTE</h2></center>
+        <form>
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="id" class="sr-only">Id usuario</label>
+                        <input type="number" class="form-control" name="id usuario" placeholder="Id usuario">
+                    </div>
+                    <div class="form-group col-md-8">
+                        <label for="nombre" class="sr-only">Nombre</label>
+                        <input type="text" class="form-control" name="nombre" placeholder="Nombre">
+                    </div>        
+                </div>
+                    <hr>
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="id tipo documento" class="sr-only">Id tipo documento</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Tipo de documento</option>
+                            <option value="1">Targeta de identidad</option>
+                            <option value="2">Cédula</option>
+                            <option value="3">Cédula extranjera</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-8">
+                        <label for="documento" class="sr-only">Documento</label>
+                        <input type="text" class="form-control" name="documento" placeholder="Documento">
+                    </div>
+                </div>
+                    <hr>
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="id rol" class="sr-only">Id rol</label>
+                        <input type="number" class="form-control" name="id rol" placeholder="Id rol">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="id estado" class="sr-only">Id Estado</label>
+                        <input type="number" class="form-control" name="id estado" placeholder="Id estado">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="id curso" class="sr-only">Id curso</label>
+                        <input type="number" class="form-control" name="id curso" placeholder="Id curso">
+                    </div>
+                </div>
+                    <hr>
+                
+                
+                <input type="button" class="btn btn-primary  btn-lg btn-block" onclick="alert('Se guardó el visitante'), location.href='bitacora.phtml'" value="Guardar">
+            </form>
+            
+        </div>
+    

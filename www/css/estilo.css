@@ -1,0 +1,13 @@
+form
+{
+    background-color: rgba(195, 195, 195, 0.568);
+    border-radius: 20px;
+    padding: 4%;
+    
+}
+header
+{
+    background-color: #007bff;
+    color: rgb(255, 255, 255);
+    font-family: Tahoma, Geneva, sans-serif;
+}
